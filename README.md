@@ -13,7 +13,7 @@ Los datos originales presentaban unidades en filas separadas por SKU. Se impleme
     * Ubicación geográfica (Region y Sector).
     * Tiempo de maduración (Meses en promoción).
 * **Variable Objetivo (Target):** Adopción calculada como:
-  $$Adopcion = \frac{Unidades\_Promo}{Unidades\_Promo + 0.7 * \times Unidades\_Antiguo}$$
+  $$Adopcion = \frac{Unidades\_Promo}{Unidades\_Promo + 0.7 \times Unidades\_Antiguo}$$
 
 ## 📈 Resultados
 * **MAE (Error Medio Absoluto):** 0.1598 (Margen de error del ~16% en la predicción de adopción).
